@@ -13,10 +13,9 @@
 		"ms-dotnettools.csharp"
 	],
 	"forwardPorts": [
-		5000,
-		5001
+		5000
 	],
-	// Uncomment the next line if you want start specific services in your Docker Compose config.
+	// Uncomment the next line if you want to start specific services in your Docker Compose config.
 	"runServices": [ "db" ],
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
 	"shutdownAction": "stopCompose",
